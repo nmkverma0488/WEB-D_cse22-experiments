@@ -1,0 +1,40 @@
+Body {
+font-family :'georgia' ,serif;
+    margin : 20px ;
+}
+.container {
+    border: 2px solid black ;
+    display: flex;
+    justify-content :center ;
+    align-items: center ;
+    flex-direction:colomn;
+    gap : 40px;
+    padding :40px ;
+    margin: 20px ;
+}
+.card {
+    background-color:bisque;
+    width: 220px ;
+    text-align: center;
+    border-radius:10px;
+    box-shadow:  4px 8px rgba( 0 , 0 , 0 , 5);
+    border: 3px solid #007bff;
+
+}
+.circle{
+     background-color:navy;
+     Color:pink;
+     font-weight:bold ;
+     font-size: 20px;
+     width: 70px ;
+     height: 70px ;
+     border-radius: 50%;
+     line-height:70px;
+     margin: 0 auto 15px;
+}
+p{
+    margin: 5px 0;
+    font-size : 14px ;
+}
+
+    
