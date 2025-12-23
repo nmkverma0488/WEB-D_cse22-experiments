@@ -1,0 +1,11 @@
+body{
+    font-family:sans-serif,Arial;
+    margin:0;
+}
+.h1{
+    font-size: smaller;
+    margin:auto;
+    padding-left: 40px;
+    border:darkgoldenrod;
+    background-color: antiquewhite;
+}
