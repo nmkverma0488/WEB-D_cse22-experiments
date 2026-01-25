@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;      /* 14 */
+}
+
+a:link {
+  color: blue;                /* 15 – unvisited */
+}
+
+a:hover {
+  color: green;               /* 16 – hover */
+}
+
+a:active {
+  color: red;                 /* 17 – clicking */
+}
+
+a:focus {
+  outline: 2px solid orange;  /* 18 – focus */
+}
+
+a:visited {
+  color: purple;              /* 19 – visited */
+}
