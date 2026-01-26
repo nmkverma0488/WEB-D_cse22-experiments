@@ -1,0 +1,63 @@
+tr[class="read"] {
+  background-image: linear-gradient(to right, #e0ffe0, #b2f7b2);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to right, #e0ffe0, #b2f7b2);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to right, #e0ffe0, #b2f7b2);
+}
+
+span {
+  display: inline-block;
+}
+
+/* to-read status */
+tr[class="to-read"] span[class="status"] {
+  border: 1px solid green;
+  background-image: linear-gradient(to right, #e0ffe0, #b2f7b2);
+}
+
+/* read status */
+tr[class="read"] span[class="status"] {
+  border: 1px solid blue;
+  background-image: linear-gradient(to right, #e0f2ff, #b3daff);
+}
+
+/* in-progress status */
+tr[class="in-progress"] span[class="status"] {
+  border: 1px solid orange;
+  background-image: linear-gradient(to right, #fff3e0, #ffd699);
+}
+
+/* status + rate */
+span[class="status"],
+span[class^="rate"] {
+  height: 20px;
+  width: 20px;
+  padding: 4px;
+}
+
+/* direct children of rate */
+span[class^="rate"] > span {
+  border: 1px solid #555;
+  border-radius: 50%;
+  margin: 2px;
+  height: 12px;
+  width: 12px;
+  background-color: #ccc;
+}
+
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(to right, gold, orange);
+}
+
+span[class~="two"] > span:nth-child(-n+2) {
+  background-image: linear-gradient(to right, gold, orange);
+}
+
+span[class~="three"] span {
+  background-image: linear-gradient(to right, gold, orange);
+}
