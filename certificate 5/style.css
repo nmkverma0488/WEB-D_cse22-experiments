@@ -1,0 +1,65 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER FIXED AT TOP */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+}
+
+/* LOGO */
+#header-img {
+  width: 80px;
+}
+
+/* NAV BAR */
+#nav-bar {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+/* NAV LINKS */
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* SPACE FOR FIXED HEADER */
+#main-doc {
+  margin-top: 180px;
+  padding: 20px;
+}
+
+/* SECTIONS */
+.main-section {
+  margin-bottom: 40px;
+}
+
+/* MEDIA QUERY — REQUIRED (TEST 24) */
+@media (max-width: 768px) {
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header {
+    text-align: center;
+  }
+}
