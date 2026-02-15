@@ -7,8 +7,8 @@ font-family :'georgia' ,serif;
     display: flex;
     justify-content :center ;
     align-items: center ;
-    flex-direction:colomn;
-    gap : 40px;
+    flex-direction:column;
+    gap : 60px;
     padding :40px ;
     margin: 20px ;
 }
@@ -19,7 +19,6 @@ font-family :'georgia' ,serif;
     border-radius:10px;
     box-shadow:  4px 8px rgba( 0 , 0 , 0 , 5);
     border: 3px solid #007bff;
-
 }
 .circle {
      background-color:navy;
