@@ -1,0 +1,16 @@
+body{
+    font-family:'sans-serif','georgia';
+    margin:22px;
+}
+h1{
+    text-align:center;
+    font-size:45px;
+    color:aquamarine;
+}
+.product-grid{
+  
+    width:77px;
+    height:78px;
+    flex-direction:colomn;
+
+}
